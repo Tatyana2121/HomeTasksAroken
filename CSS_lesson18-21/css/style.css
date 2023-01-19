@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Amatic SC';
+  src: local('Amatic SC'), 
+      url('../fonts/AmaticSC-Regular.eot'),
+      url('../fonts/AmaticSC-Regular.woff2') format('woff2'),
+      url('../fonts/AmaticSC-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: local('Amatic SC'),   
+      url('../fonts/AmaticSC-Bold.woff2') format('woff2'),
+      url('../fonts/AmaticSC-Bold.woff') format('woff'),
+      url('../fonts/AmaticSC-Bold.eot') format('eot');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.name {
+  margin: 2rem 0 ;
+  color: blueviolet;
+}
+.text-block {
+  text-indent: 25px;
+  color: grey;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4px;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 200%;
+}
+
+.lesson21-one {
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.lesson21-two {
+  font-family: 'Amatic SC';
+  font-weight: bold;
+}

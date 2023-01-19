@@ -1,0 +1,20 @@
+.container {  
+  max-width: 1000px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+.text {
+  max-width: 400px;
+  margin: 2rem 0 0 10%;
+}
+.text p {
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 3rem;
+  animation: font-color 3s ease infinite;
+}
+@keyframes font-color {
+  20% {color: #f14848;}
+  80% {color: #ff0000;}
+  90% {color: rgb(141, 9, 9);}
+}

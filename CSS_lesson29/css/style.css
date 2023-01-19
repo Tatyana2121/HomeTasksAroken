@@ -1,0 +1,20 @@
+.container {  
+  max-width: 1000px;
+  max-height: 70vh;
+  margin-top: 20px;
+  margin: 0 auto;
+  background-color: #7a7777;
+}
+.grid-box {
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template: repeat(2, max-content)/repeat(2, 1fr) minmax(100px, 200px) repeat(2, 1fr);
+  gap: 20px 10px;
+}
+.grid-item {
+  border: 3px solid #7a7777;
+  text-align: center;
+  padding: 1rem;
+  background-color: #f5f6f7;
+}

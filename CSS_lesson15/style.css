@@ -1,0 +1,22 @@
+.text--bold {
+  font-size: 24px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.child {
+  color: blueviolet;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0px blue;
+}
+#blog {
+  margin-top: 20px;
+}
+a[href="#blog"] {
+  color: red;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.lessons {
+  font-size: 30px;
+}
