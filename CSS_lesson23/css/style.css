@@ -1,0 +1,25 @@
+.container {  
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.name {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.lesson23-wrap {
+  margin-bottom: 30px;
+}
+.lesson23-one {
+  margin-bottom: 30px;
+  height: 400px;
+  background-image: url(../images/dog.jpg), linear-gradient(45deg, #caf5eb 2%, #1b3e40 93%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+} 
+.lesson23-two {
+  height: 400px;
+  background: url(../images/laptop.jpg) center center/400px no-repeat, linear-gradient(90deg, #945f8d 18%, #050006 73%);
+}
