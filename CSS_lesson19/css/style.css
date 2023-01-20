@@ -1,0 +1,14 @@
+
+.name {
+  margin: 2rem 0 ;
+  color: blueviolet;
+}
+.text-block {
+  text-indent: 25px;
+  color: grey;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4px;
+}
+
